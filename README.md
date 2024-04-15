@@ -6,5 +6,9 @@ This repository contains the source code for a simple static website built using
 ## Features
 
 - Clean and minimalistic design
-- Responsive layout for various screen sizes
 - Easy to customize and extend with additional content
+
+##Customization
+
+- home_page.html: Update the content and structure of the website.
+- home_page.css: Modify the styles to change the appearance and layout.
