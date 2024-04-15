@@ -8,7 +8,7 @@ This repository contains the source code for a simple static website built using
 - Clean and minimalistic design
 - Easy to customize and extend with additional content
 
-##Customization
+## Customization
 
 - home_page.html: Update the content and structure of the website.
 - home_page.css: Modify the styles to change the appearance and layout.
