@@ -1,0 +1,851 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.Green_top{
+    background-color: green;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 2px;
+    position: fixed;
+}
+
+nav{
+    
+    height: 13%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    position: fixed;
+    top: 5%;
+}
+
+
+
+.logo-block{
+    width: 2%;
+    height: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    padding-left: 30px;
+   
+}
+
+
+.luma{
+    padding-left: 600px;
+    height: 100%;
+    width: 10%;
+}
+.globe-icon{
+    width: 10%;
+    height: 100%;
+    margin-left: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration-line: none;
+   
+}
+
+select{
+    border: none;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    margin-top: -60px;
+    background-image: url(DeshleeCouch_Lifestyle8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 70%;
+    color: white;
+    font-family: "Platypi", serif;
+    padding-top: 2%;
+}
+
+.shopnow{
+    width: 150px;
+    padding: 15px ;
+    text-align: center;
+    margin-left: 70%;
+    margin-top: 2%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.shopnow:hover{
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.empty{
+    padding-bottom: 40px;
+}
+.skincon{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.skincon>p{
+    
+        width: 524px;
+        height: 127px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(71, 71, 77) ;
+        line-height: 1.2em;
+        margin-top: -5%;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+}
+
+.imgs{
+    
+   align-items: center;
+   justify-content: space-evenly;
+   display: flex;
+   padding-right: 30px;
+   width: 80%;
+   height: 38%;
+}
+
+.leafc{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -5%;
+}
+
+.leafc>h2{
+    font-family:"Work Sans", sans-serif ;
+}
+
+.leafc>p{
+    font-family: "Work Sans", sans-serif;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.procards{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+}
+.cardone{
+    padding-left: 50px;
+}
+
+.cardtwo{
+    margin-left: 7px;
+}
+
+.cardthree{
+    margin-left: 7px;
+}
+
+.cardcon{
+    background-color: rgb(243, 230, 230);
+    height: 30%;
+    width: 100%;
+    margin-top: -2%;
+}
+
+.headcard{
+    padding-top: 20px;
+    font-family: "DM Sans", sans-serif;
+    padding-left: 24px;
+    font-size: 19px;
+}
+
+.paracard{
+    
+    font-family: "DM Sans", sans-serif;
+    padding-left: 24px;
+    font-size: 10px;
+}
+
+.pricegre{
+    /* padding-left: 24px; */
+    color: rgb(20, 160, 20);
+    /* padding-top: 20px; */
+    font-size: 23px;
+    width: 30%;
+}
+
+.addcart{
+    /* margin-left: 60%; */
+    
+        width: 90px;
+        padding: 10px ;
+        text-align: center;
+        /* margin-left: 70%; */
+        /* border: 1px solid; */
+        border-radius: 25px;
+        font-weight: bold;
+        border: none;
+        color:white;
+        cursor: pointer;
+        background-color:black;
+        font-size: 9px;
+        
+    
+    
+}
+.sameline{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.addcart:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.bshop{
+    
+    /*
+    border: 1px solid; 
+    */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.shopall{
+    width: 150px;
+            height: 40px;
+            background-color: rgb(62, 165, 62);
+            border: 1px solid;
+            border-radius: 50px;
+            font-size: 17px;
+            color: white;
+            margin-top: 5%;
+            font-family:"Work Sans", sans-serif ;
+}
+
+.shopall:hover{
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    margin-top: 5%;
+    background-color: #e0e9e6;
+}
+
+.stress{
+    margin-top: 10%;
+    margin-left: 8% ;
+    font-family: "Platypi", serif;
+    font-size: 70px;
+    color: rgb(41, 173, 41);
+}
+
+.alltoo{
+    margin-left:8% ;
+    margin-top: 3%;
+    width: 80%;
+    font-family:"Work Sans", sans-serif ;
+    font-size: 15px;
+}
+
+.ourstory{
+    width: 120px;
+            height: 40px;
+            background-color: rgb(62, 165, 62);
+            border: none;
+            border-radius: 50px;
+            font-size: 15px;
+            color: white;
+            margin-top: 5%;
+            font-family:"Work Sans", sans-serif ;
+            margin-left: 8%;
+}
+
+.ourstory:hover{
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2{
+    display: flex;
+    justify-content: left;
+}
+
+.main21{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.plant{
+    margin-top: 10%;
+    font-family: "Platypi", serif;
+    margin-left: 10%;
+    font-size: 70px;
+    color: rgb(41, 173, 41);
+}
+
+.ourproducts{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 22px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}
+
+.threeimg{
+   margin-top: 7%;
+}
+
+.oneimg{
+    display: flex;
+}
+.formu{
+    
+    margin-left: 30px;
+  
+}
+
+.formuh{
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+}
+
+.formup{
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.twoimg{
+    display: flex;
+    padding-top: 20px;
+}
+
+.thirdimg{
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer-signup {
+    width: 100px;
+    height: 35px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    opacity: 1;
+}
+
+.footer1{
+    background-color: #F5F3EF;
+    /* display: flex;
+    flex-direction: column;
+    max-width: 80rem;
+    padding:40px;
+    justify-content: space-around; */
+top: 9107px;
+left: 31px;
+width: 1372px;
+height: 360px;
+/* UI Properties */
+background: #F5F3EF 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+margin-bottom: 20%;
+}
+
+.footer1a{
+    margin-top: 6.5%;
+    padding-left: 6%;
+}
+
+
+.textb{
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.88px;
+    font-family: "Work Sans", sans-serif;
+
+}
+.texta{
+    /* Layout Properties */
+top: 9220px;
+left: 192px;
+width: 45px;
+height: 14px;
+/* UI Properties */
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 11px/19px var(--unnamed-font-family-azo-sans);
+color: var(--unnamed-color-000000);
+text-align: left;
+font: normal normal 300 11px/19px Azo Sans;
+letter-spacing: -0.44px;
+color: #000000; */ 
+opacity: 1;
+padding-top: 30px;
+width: 100%;
+font-size: 15px;
+font-family: "Work Sans", sans-serif;
+}
+
+.footer2{
+    
+    margin-top: 6.5%;
+    margin-left: 4%;
+}
+
+.footer3{
+    margin-top: 6.5%;
+    margin-left: 4%;
+}
+.textab{
+    padding-top: 20%;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.greenhello{
+    color: rgb(50, 165, 50);
+}
+
+.footer4{
+    margin-top: 6.5%;
+    margin-left: 4%;
+}
+
+.emaile{
+    top: 9230px;
+left: 912px;
+width: 109px;
+height: 16px;
+padding-top: 9%;
+width: 60%;
+font-size: 15px;
+color: #bbc5c2;
+}
+
+.line{
+    padding-top: 6%;
+}
+
+.btnsignup{
+    margin-left: 90%;
+    margin-top: -15%;
+    
+}
+
+.signup{
+    width: 120px;
+    padding: 15px ;
+    text-align: center;
+   
+    letter-spacing: 1px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.signup:hover{
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.logoll{
+    padding-top: 50px;
+}
+
+.icons{
+    margin-top: -23%;
+    margin-left: 40%;
+    font-size: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    padding-right: 40px;
+}
+
+.fa-brands {
+    padding-right: 20px;
+}
+
+.last{
+    font-size: 10px;
+    margin-left: 40%;
+    margin-top: 7%;
+    margin-bottom: 50%;
+}
+
+.fa-light{
+    margin-left:3%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-light:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.main3{
+    margin-top: 10%;
+    display: flex;
+}
+.howwe{
+    margin-left: 20%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+}
+
+.giving{
+    margin-left: 20%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    width: 434px;
+    padding-top: 20px;
+}
+.goodstuff{
+    margin-left: 20%;
+    margin-top: -1%;
+}
+.sgood{
+    
+        width: 145px;
+                height: 30px;
+                background-color: rgb(62, 165, 62);
+                border: 1px solid;
+                border-radius: 50px;
+                font-size: 12px;
+                color: white;
+                margin-top: 5%;
+                font-family:"Work Sans", sans-serif ;
+                padding: 5px;
+}
+.sgood:hover{
+        background-color: black;
+        border: none;
+        color: white;
+        cursor: pointer;
+    
+}
+
+.imover{
+    margin-top: -10%;
+    margin-left: 16%;
+}
+
+.lapping{
+    margin-left: -78%;
+    margin-top: 20%;
+}
+
+.col{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.col>h2{
+    font-family:"Work Sans", sans-serif ;
+    font-size: 22px;
+}
+
+.col>p{
+    font-family: "Work Sans", sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.allthree{
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.com1{
+   
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+      
+}
+
+.cont{
+    background-color: #EFFAF4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    
+}
+
+.word{
+    margin-top: 8%;
+    font-family: "DM Sans", sans-serif;
+}
+
+.vogue{
+    margin-top: 5%;
+   
+}
+.vogue1{
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+   
+  }
+
+  .compone{
+    padding-left: 29px;
+  }
+
+  .com1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .img2 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.com2{
+
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  
+}
+
+/* .overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .3s ease;
+
+} */
+
+.comptwo{
+margin-left: -8%;
+}
+
+.com2:hover .overlay {
+opacity: 1;
+}
+
+.img3 {
+color: white;
+font-size: 100px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.com3{
+
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  
+}
+
+.compthree{
+    margin-left: 7%;
+    }
+    
+    .com3:hover .overlay {
+    opacity: 1;
+    }
+    
+    .img4 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+    .gre{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    
+    .gre>h2{
+        font-family:"Work Sans", sans-serif ;
+        font-size: 22px;
+    }
+    
+    .gre>p{
+        font-family: "Work Sans", sans-serif;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .addcart1{
+        /* margin-left: 60%; */
+            margin-top: 10%;
+            width: 90px;
+            padding: 10px ;
+            margin-left: 7%;
+            text-align: center;
+            /* margin-left: 70%; */
+            /* border: 1px solid; */
+            border-radius: 25px;
+            font-weight: bold;
+            border: none;
+            color:white;
+            cursor: pointer;
+            background-color:black;
+            font-size: 9px;
+            margin-bottom: 7%;
+        
+        
+    }
+
+    
+.pics{display: flex;
+    
+}
+    .conpic{
+        margin-top: 10%;
+        margin-left: 23%;
+        
+    }
+
+    .clean{
+        padding-top: 10px;
+        font-size: 22px;
+        font-family: "DM Sans", sans-serif;
+    }
+    .follow{
+        padding-top: 10px;
+        font-size: 12px;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    .ig{
+        margin-top: 5%;
+        justify-content: space-evenly;
+       padding-left: 20px;
+    }
+    .ig2{
+        margin-left: 20%;
+    }
+
+    .hydrate{
+        background-image: url(./L&L_ReadytoHydrate\ copy.png);
+        width: 100%;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .ready{
+        margin-left: 25%;
+        padding-top: 3%;
+        color: white;
+        font-family: "Platypi", serif;
+        font-size: 500%;
+    }
+
+    .left{
+        padding-bottom: 10%;
+    }
